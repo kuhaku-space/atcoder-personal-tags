@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "atcoder-personal-tags"
+version = "0.1.0"
+description = ""
+authors = ["kuhaku-space <kuhakuspace2000@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.29.0"
+sqlalchemy = "^2.0.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
