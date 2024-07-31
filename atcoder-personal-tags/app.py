@@ -1,7 +1,8 @@
 import streamlit as st
-from models import Tag
-from setting import session
 from sqlalchemy import distinct, select
+
+from .models import Tag
+from .setting import session
 
 
 def get_tag_list() -> list[str]:
