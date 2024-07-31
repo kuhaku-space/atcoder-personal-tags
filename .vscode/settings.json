@@ -1,0 +1,14 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "python.analysis.typeCheckingMode": "strict",
+  "cSpell.words": [
+    "autoflush",
+    "charliermarsh",
+    "pyyaml",
+    "selectbox",
+    "sessionmaker",
+    "streamlit"
+  ]
+}
