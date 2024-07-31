@@ -1,5 +1,6 @@
-from setting import Base, engine
 from sqlalchemy import Column, Integer, String
+
+from .setting import Base, engine
 
 
 class Tag(Base):

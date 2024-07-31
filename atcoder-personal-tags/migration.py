@@ -1,5 +1,5 @@
-from models import Base
-from setting import engine
+from .models import Base
+from .setting import engine
 
 
 class Migration(object):

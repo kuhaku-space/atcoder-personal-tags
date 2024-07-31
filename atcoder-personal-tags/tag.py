@@ -1,8 +1,9 @@
 from pathlib import Path
 
 import yaml
-from models import Tag
-from setting import session
+
+from .models import Tag
+from .setting import session
 
 
 def create_tag_data():
