@@ -1,5 +1,5 @@
-from .migration import Migration
-from .tag import create_tag_data
+from .services.migration import Migration
+from .services.tag import create_tag_data
 
 
 def main():
