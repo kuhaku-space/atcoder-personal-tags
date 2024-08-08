@@ -20,3 +20,7 @@ def display() -> None:
         problem_str = str.upper(str(row.problem_id).replace("_", ""))
         link = f"[{problem_str}](https://atcoder.jp/contests/{row.contest_id}/tasks/{row.problem_id})"
         st.markdown(link)
+
+
+if __name__ == "__main__":
+    display()
