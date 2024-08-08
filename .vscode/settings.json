@@ -2,10 +2,11 @@
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
-  "python.analysis.typeCheckingMode": "strict",
+  "python.analysis.typeCheckingMode": "basic",
   "cSpell.words": [
     "autoflush",
     "charliermarsh",
+    "dataframe",
     "pyyaml",
     "selectbox",
     "sessionmaker",
